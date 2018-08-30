@@ -6,12 +6,12 @@ class GameMain
     {
       Console.WriteLine("1. New Game\n" +"2. Load Game\n" + "3. Exit Game\n");
       string c = Console.ReadLine();
-      bool Mainscrean = true ;
-      while( Mainscrean == true){
+      bool Mainscreen = true ;
+      while( Mainscreen == true){
           switch(c){
               case "1":
                 //create characeter command
-                Mainscrean = false ;
+                Mainscreen = false ;
                 break;
               case"2": 
                 Console.WriteLine("Sorry we have not made this yet. Please use another command");
@@ -23,7 +23,7 @@ class GameMain
                 Console.WriteLine("That is not a correct command.");
                 break;
           }
-          if(Mainscrean == true){
+          if(Mainscreen == true){
               c = Console.ReadLine(); 
           }
         Console.WriteLine("test");
